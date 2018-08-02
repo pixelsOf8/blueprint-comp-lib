@@ -1,4 +1,4 @@
-# Demo Component Library
+# Blueprint APP for custom components & libraries
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
