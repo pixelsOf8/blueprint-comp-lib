@@ -35,9 +35,6 @@ yarn-error.log
 testem.log
 /typings
 
-# themeing
-/src/assets/sass/theme.scss
-
 # System Files
 .DS_Store
 Thumbs.db
