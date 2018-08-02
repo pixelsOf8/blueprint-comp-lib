@@ -1,0 +1,73 @@
+/* Highlight selections in branded colors? */
+h1, h2, h3, h4, h5, h6, p {
+  &::selection {
+    background-color: hotpink;
+  }
+}
+
+html, body {
+  height: 100%;
+  overflow: initial;
+  width: 100%;
+}
+
+li {
+  margin-top: .5rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.input, .select, select, .text-area {
+  height: 2.5em !important;
+}
+
+html {
+  background: $colours-one;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  .container {
+    margin-left: 0;
+  }
+  @include desktop {
+    .container {
+      margin: 0 auto;
+    }
+  }
+}
+
+#container {
+  height: calc(100% - 65px);
+}
+
+#container main {
+  margin-top: 0;
+}
+
+.container {
+  background: #fff;
+  border-radius: 7px;
+  margin: 20px auto;
+  width: 100%;
+}
+
+// dont remove fixes bulma container/header wid sidebar
+#scroll-container {
+  @include tablet {
+    .container {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  @include desktop {
+    header {
+      max-width: 960px;
+    }
+  }
+}

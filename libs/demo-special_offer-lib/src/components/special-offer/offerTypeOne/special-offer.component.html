@@ -1,0 +1,23 @@
+
+
+<div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img *ngIf="imageName && directory || imageName" src="{{directory}}/{{imageName}}.jpg" alt="{{title}}" />
+      <img *ngIf="!imageName" src="{{placeholderImage}}" alt="Placeholder image">
+    </figure>
+  </div>
+
+  <div class="card-content">
+    <div class="media">
+      <p class="title is-4"> {{ title }} </p>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. <br />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div>
+    <a class="button is-info">{{ buttonText }}</a>
+  </div>
+</div>
+

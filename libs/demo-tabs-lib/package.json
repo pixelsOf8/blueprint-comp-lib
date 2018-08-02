@@ -1,0 +1,23 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "repository": "https://github.com/pixelsOf8/demo-component-library",
+  "name": "demo-tabs-lib",
+  "version": "1.2.0",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "^6.0.3",
+    "@angular/core": "^6.0.3",
+    "@angular/router": "^6.0.3"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public_api.ts"
+    },
+    "dest": "../../built-libs/demo-tabs-lib"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "esure-foundations": "0.0.2"
+  }
+}

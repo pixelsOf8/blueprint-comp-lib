@@ -1,0 +1,19 @@
+
+/* Temporary Greyscale Theme */
+  $colours-one: #f1f1f1;
+  $colours-two: #53B535;
+  $font-family-type-one: 'MuseoSansRounded', Helvetica, Arial, sans-serif;
+  $font-family-type-two: monospace !default;
+  $font-family-type-three: 'Roboto', Helvetica, Arial, sans-serif;
+  $txt-size-primary: 14px;
+  $txt-size-secondary: 16px;
+  $txt-size-tertiary: 32px;
+
+
+/* Bulma imports */
+@import 'bulma/bulma-imports';
+
+/* Core */
+@import 'custom/custom-styles.scss';
+@import 'custom/base';
+

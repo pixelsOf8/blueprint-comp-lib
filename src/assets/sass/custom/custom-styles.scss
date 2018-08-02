@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/**
+  Content Area(s)
+ */
+  .custom__wrapper {
+    padding: 1.25rem;
+  }
+
+/**
+  Buttons
+ */
+  .button.is-text {
+    &:focus   { box-shadow: none; }
+    &:hover,
+    &:active  { background-color: transparent; }
+  }
+
+/**
+  Headings
+ */
+.title.is-1,
+.title.is-2,
+.title.is-3 {
+  color: $colours-one;
+  font-family: $font-family-type-one;
+}
+
+.title.is-4,
+.title.is-5,
+.title.is-6 {
+  color: $colours-two;
+  font-family: $font-family-type-two;
+}
