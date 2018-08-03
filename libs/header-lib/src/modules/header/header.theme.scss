@@ -1,6 +1,4 @@
-
-$colour_one: red !default;
-$colour_two: green !default;
+@import '../default.theme';
 
 .header_primary {
   color: $colour_one;
