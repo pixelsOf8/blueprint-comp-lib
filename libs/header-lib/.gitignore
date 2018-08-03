@@ -9,6 +9,7 @@
 /node_modules
 
 # Built libraries
+/dist
 *.tgz
 
 # IDEs and editors
