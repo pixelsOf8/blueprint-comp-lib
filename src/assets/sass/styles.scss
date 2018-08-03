@@ -9,11 +9,14 @@
   $txt-size-secondary: 16px;
   $txt-size-tertiary: 32px;
 
+/* Component colour over-ride */
+  $colour_one: #53B535;
 
 /* Bulma imports */
-@import 'bulma/bulma-imports';
+  @import 'bulma/bulma-imports';
 
 /* Core */
-@import 'custom/custom-styles.scss';
-@import 'custom/base';
+  @import 'custom/custom-styles.scss';
+  @import 'custom/base';
 
+  @import '~header-lib/src/modules/header/header.theme.scss';

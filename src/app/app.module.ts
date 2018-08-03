@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 
 // Custom Component(s)
 import { ShowcaseComponent } from './components/showcase/showcase.component';
+import { HeaderComponent } from '../../libs/header-lib';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShowcaseComponent
+    ShowcaseComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
