@@ -1,0 +1,27 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "header-lib",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "ng-packagr -p package.json",
+    "postbuild": "npm run build-theme",
+    "build-theme": "scss-bundle -e './src/modules/header/header.theme.scss' -d '../../built-libs/header-lib/src/scss/theme/header.theme.scss'"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.1.0",
+    "@angular/core": "^5.1.0"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "ng-packagr": "^3.0.6",
+    "scss-bundle": "^2.3.2"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public_api.ts"
+    },
+    "dest": "../../built-libs/header-lib"
+  }
+}

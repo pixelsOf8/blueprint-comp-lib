@@ -1,0 +1,12 @@
+
+$colour_one: red !default;
+$colour_two: green !default;
+
+.header_primary {
+  colour: $colour_one;
+}
+
+.secondary_header {
+  colour: $colour_two;
+}
+
