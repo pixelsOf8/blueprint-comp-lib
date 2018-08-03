@@ -16,7 +16,7 @@ then
   echo "Ok if your sure..."
   echo "Lets get creating then!!"
   echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-  rimraf $library && ng-packagr -p libs/$library/package.json
+  cd libs/$library && npm run build
   echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
   echo "Package successfully created!"
   echo "Next step: npm run prepare-package"
